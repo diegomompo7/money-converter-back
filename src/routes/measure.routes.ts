@@ -5,4 +5,4 @@ export const measureRouter = express.Router();
 
 measureRouter.get("/", measureService.getMeasures);
 measureRouter.post("/", measureService.createMeasure);
-measureRouter.delete("/:id", measureService.createMeasure);
+measureRouter.delete("/:id", measureService.deleteMeasure);
